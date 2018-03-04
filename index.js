@@ -20,9 +20,9 @@ function destructivelyRemoveFirstKitten()
   kittens.shift()
 }
 
-const appendKitten(name)
+function appendKitten(name)
 {
   const new=kittens
   new.push(name)
-  return new
+  return new[]
 }
